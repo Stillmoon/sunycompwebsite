@@ -15,3 +15,7 @@ div hr {
     border: dashed;
     border-top: 20px
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
