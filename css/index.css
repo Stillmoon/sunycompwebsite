@@ -18,6 +18,35 @@ div hr {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: lightblue;
+    background-color: orange;
 
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border: 2px solid lightgrey;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   
+}
+
+
+.topnav a:hover {
+    background-color: orange;
+    color: black;
+}
+
+/
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
