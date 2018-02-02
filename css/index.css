@@ -18,3 +18,7 @@ div hr {
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.navbar navbar-brand {
+    float: left;
+}
