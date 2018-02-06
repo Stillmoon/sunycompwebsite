@@ -1,5 +1,5 @@
 # Spring 2018 SUNY Orange Computer Club Website
-This is the official repository for the SUNY Orange Computer Club website. This will serve as a learning platform for club members.
+Welcome to the official repository for the SUNY Orange Computer Club website. This will serve as a learning platform for club members.
 
 # Learning Objectives
 * Develop a solid grasp on the fundamentals of HTML, CSS, JavaScript, and how they all work together. 
