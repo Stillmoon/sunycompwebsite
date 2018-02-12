@@ -1,1 +1,51 @@
-/* More to be added */
+/* padding classes*/
+
+.toppad-5-percent {
+    padding-top:5%;
+}
+
+.toppad-10-percent {
+    padding-top:10%;
+}
+
+.toppad-20-percent {
+    padding-top:20%;
+}
+
+.toppad-30-percent {
+    padding-top:30%;
+}
+
+.toppad-40-percent {
+    padding-top:40%;
+}
+
+.toppad-50-percent {
+    padding-top:50%;
+}
+
+.pad-10-pixel {
+    padding: 10px;
+}
+
+.pad-20-pixel {
+    padding: 20px;
+}
+
+.pad-30-pixel {
+    padding: 30px;
+}
+
+.pad-40-pixel {
+    padding: 40px;
+}
+
+.pad-50-pixel {
+    padding: 50px;
+}
+
+.collapsing-delay {
+    /* delay BS transition for animated fadeOut to show */
+    -webkit-transition-delay: 2s !important;
+    transition-delay: 2s !important;
+}
