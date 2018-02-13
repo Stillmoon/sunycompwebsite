@@ -49,3 +49,16 @@
     -webkit-transition-delay: 2s !important;
     transition-delay: 2s !important;
 }
+
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items:center;
+  border:1px solid #e3f2fd;
+}
+.item{
+  flex: 1 1 auto;
+  border:1px solid #ffebee;
+}
