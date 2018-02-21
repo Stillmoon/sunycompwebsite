@@ -1,21 +1,96 @@
-div img {
-    height: 35px;
-    width: auto;
-    float: left;
-    padding-top: 0px;
+/* padding classes*/
+
+.toppad-5-percent {
+    padding-top: 5%;
 }
 
-div h1 {
+.toppad-10-percent {
+    padding-top: 10%;
+}
+
+.toppad-20-percent {
+    padding-top: 20%;
+}
+
+.toppad-30-percent {
+    padding-top: 30%;
+}
+
+.toppad-40-percent {
+    padding-top: 40%;
+}
+
+.toppad-50-percent {
+    padding-top: 50%;
+}
+
+.pad-10-pixel {
+    padding: 10px;
+}
+
+.pad-20-pixel {
+    padding: 20px;
+}
+
+.pad-30-pixel {
+    padding: 30px;
+}
+
+.pad-40-pixel {
+    padding: 40px;
+}
+
+.pad-50-pixel {
+    padding: 50px;
+}
+
+.collapsing-delay {
+    /* delay BS transition for animated fadeOut to show */
+    -webkit-transition-delay: 2s !important;
+    transition-delay: 2s !important;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 1px solid #e3f2fd;
+}
+
+.item {
+    flex: 1 1 auto;
+    border: 1px solid #ffebee;
+}
+
+.container { /* Customized .container */
+  width: 95%;
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.center-text {
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    padding-bottom: px;
 }
-
-div hr {
-    padding-top: 0px;
-    border: dashed;
-    border-top: 20px
+.center-image-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
-
-body {
-    font-family: 'Montserrat', sans-serif;
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    align-self: center;
+    padding-top: 20px;
+    padding-bottom: 20px
 }
